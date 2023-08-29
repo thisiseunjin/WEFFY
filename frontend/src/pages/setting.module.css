@@ -1,0 +1,67 @@
+.HeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  margin-left: 17vw;
+  width: 55vw;
+  height: 80vh;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(46, 46, 72, 0.7);
+}
+
+@media (max-width: 760px) {
+  .image {
+    width: 200px;
+  }
+}
+
+.Header {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  align-self: center;
+}
+
+.imgContainer {
+  align-self: center;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.nickNameInput {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 270px;
+}
+
+.imgContainer {
+  position: relative;
+  align-self: center;
+}
+
+.imageBtn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.imageIcon {
+  color: rgb(89, 149, 195);
+  font-size: 40px;
+}

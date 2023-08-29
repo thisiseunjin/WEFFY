@@ -1,0 +1,110 @@
+.modal {
+  position: fixed;
+  right: 12px;
+  bottom: 50px;
+  width: 295px;
+  height: 292px;
+  background-color: black;
+  box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 5px;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  flex-direction: column;
+
+  z-index: 99999;
+}
+
+.modal h2 {
+  align-self: flex-start;
+  /* text-align: left; */
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between; /* "Files"와 "x" 사이의 공간을 최대로 설정 */
+  width: 100%;
+  /* align-items: space-between; */
+}
+
+.modalHeader button {
+  align-self: flex-start; /* button을 상단에 위치 */
+  border-radius: 50%;
+  font-weight: bold;
+
+  /* margin-left: auto; */
+}
+
+.upload {
+  border: 2px dashed #adb5bd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.custom-file-label {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.custom-file-label:hover {
+  background-color: #45a049;
+}
+
+.fileInfo {
+  display: flex;
+}
+
+.button {
+  padding: 0 !important;
+  min-width: 0 !important;
+  height: auto;
+}
+
+.arrowContainer button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uploadBtn {
+  margin-top: 10px;
+}
+.divider {
+  margin: 5px 0px 0px 8px;
+  height: 0.1px;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.fileController {
+  display: "flex";
+  justify-content: "space-between";
+  width: "100%";
+  font-family: "GmarketSans";
+  height: "30px";
+  position: fixed;
+  bottom: 70px;
+  right: 120px;
+}
+.downloadContainer {
+  margin-bottom: 5px;
+  padding-bottom: -5px;
+}
+.title {
+  font-size: 22px;
+  position: relative;
+  top: 7px;
+  align-self: center;
+  align-items: center;
+}

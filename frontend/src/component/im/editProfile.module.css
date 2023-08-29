@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  color: rgba(245, 249, 255, 1);
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.bar {
+  color: white;
+}
+
+.imgContainer {
+  margin-top: 10vh;
+  display: flex; /* Center the image */
+  justify-content: center;
+}
+
+.image {
+  width: 300px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  border-radius: 50%;
+}
+
+@media (max-height: 800px) {
+  .image {
+    width: 150px; /* Smaller on mobile */
+    height: 150px; /* Smaller on mobile */
+  }
+}
+
+.nickNameContainer {
+  margin-top: 20px;
+}
+
+.nickeNameInput {
+  width: 100%; /* Full width on smaller screens */
+  max-width: 20vw; /* Maximum width */
+  background-color: white;
+  border-radius: 10px;
+}
+
+.buttonContainer {
+  padding: 10vh;
+  display: flex; /* Align buttons horizontally */
+  justify-content: center; /* Center buttons */
+}
+
+.button {
+  width: 10vw;
+  min-width: 100px; /* Minimum width for buttons */
+  margin-right: 2vw;
+}
